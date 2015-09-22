@@ -3,9 +3,8 @@
 <suite name="Custom suite" parallel="none">
   <test verbose="1" name="MyCRM" annotations="JDK">
     <classes>
-      <class name="CRM.TestHomePage"/>
-
-
+      <class name="Authorization.C0001"/>
+      <class name="Authorization.C0002"/>
     </classes>
   </test>
 </suite>
