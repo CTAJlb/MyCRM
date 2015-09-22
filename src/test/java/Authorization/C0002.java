@@ -18,7 +18,7 @@ public class C0002 extends BaseTest {
         homePage = new HomePage();
         homePage.openHomePage();
         homePage.authorization("test", "test");
-        homePage.checkErrorAuth("The user name or password provided is incorrect");
+        homePage.checkErrorAuth("The user name or password provided is incorrect.");
 
     }
 
