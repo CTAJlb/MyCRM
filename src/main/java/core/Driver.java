@@ -37,8 +37,8 @@ public class Driver {
 //                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\driver\\chromedriver.exe");
                 //System.setProperty("webdriver.chrome.driver", "../chromedriver");
 //                System.setProperty("webdriver.chrome.driver", "../chromedriver.exe");
-                System.setProperty("webdriver.chrome.driver", "../chromedriver.exe");
-//                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/chromedriver.exe");
+//                System.setProperty("webdriver.chrome.driver", "../chromedriver.exe");
+                System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/driver/chromedriver.exe");
                 driverInput = new ChromeDriver();
                 break;
             case "safari":
