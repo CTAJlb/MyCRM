@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Custom suite" parallel="none">
-  <test verbose="1" name="MyCRM" annotations="JDK">
+<suite name="Custom suite" parallel="false">
+  <test verbose="0" name="MyCRM" annotations="JDK">
     <classes>
       <class name="Authorization.C0001"/>
       <class name="Authorization.C0002"/>
