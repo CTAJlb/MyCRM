@@ -11,7 +11,7 @@ import ui_Layer.blocks.UserPage;
 public class C0001 extends BaseTest {
     HomePage homePage;
     UserPage userPage;
-    String email = "s@bb.com";
+    String email = "sa@bb.com";
     String password = "y0D@1927";
 
     @Test
