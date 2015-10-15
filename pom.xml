@@ -16,11 +16,6 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.codeborne</groupId>
-            <artifactId>selenide</artifactId>
-            <version>2.19</version>
-        </dependency>
-        <dependency>
             <groupId>ru.yandex.qatools.allure</groupId>
             <artifactId>allure-testng-adaptor</artifactId>
             <version>${allure.version}</version>
@@ -31,22 +26,8 @@
             <artifactId>selenium-java</artifactId>
             <version>2.39.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-android-driver</artifactId>
-            <version>2.39.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-iphone-driver</artifactId>
-            <version>2.39.0</version>
-        </dependency>
 
-        <dependency>
-            <groupId>io.appium</groupId>
-            <artifactId>java-client</artifactId>
-            <version>1.6.2</version>
-        </dependency>
+
 
         <!--dependency>
             <groupId>org.seleniumhq.selenium</groupId>
@@ -58,19 +39,6 @@
             <artifactId>selenium-android-driver</artifactId>
             <version>2.21.0</version>
         </dependency-->
-
-        <dependency>
-            <groupId>io.selendroid</groupId>
-            <version>0.11.0</version>
-            <artifactId>selendroid-standalone</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>io.selendroid</groupId>
-            <version>0.11.0</version>
-            <artifactId>selendroid-client</artifactId>
-        </dependency>
-
-
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
